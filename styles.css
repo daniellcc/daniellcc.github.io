@@ -29,7 +29,7 @@ img {
 
 @media screen and (min-width: 767.95px) {
   #nav-item__1::after {
-    content: '/';
+    content: '|';
     color: black;
   }
 }
