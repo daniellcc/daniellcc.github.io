@@ -1,0 +1,22 @@
+body {
+  background-image: url('assets/code.jpg');
+  background-size: cover;
+}
+
+a {
+  color: dodgerblue;
+  text-decoration: underline;
+} a:hover {
+  color: dodgerblue
+}
+
+img {
+  height: 300px;
+  width: auto;
+}
+
+@media screen and (max-width: 991.95px) {
+  img {
+    height: 350px;
+  }
+}
