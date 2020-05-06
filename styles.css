@@ -1,6 +1,7 @@
 body {
   background-image: url('assets/code.jpg');
   background-size: cover;
+  background-attachment: fixed;
 }
 
 a {
@@ -33,8 +34,9 @@ img {
 }
 
 @media screen and (min-width: 767.95px) {
-  #nav-item__1::after {
+  .nav-item:not(#email)::after {
     content: '|';
     color: black;
+    padding-right: 4px;
   }
 }
