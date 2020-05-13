@@ -4,6 +4,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-color: white;
+  height: 100%;
 }
 
 a {
@@ -18,6 +19,10 @@ img {
   width: auto;
 }
 
+.container > .row {
+  height: 100vh;
+}
+
 .collapse {
   -webkit-transition: none !important;
   transition: none !important;
@@ -27,6 +32,10 @@ img {
   -webkit-transition: none !important;
   transition: none !important;
   display: none !important;
+}
+
+.row > .card {
+  max-width:22rem; /* max cards width*/
 }
 
 @media screen and (max-width: 991.95px) {
