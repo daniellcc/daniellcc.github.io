@@ -11,3 +11,5 @@ collections:
   "-":
     title: projects
     output: true
+
+theme: jekyll-theme-minimal
