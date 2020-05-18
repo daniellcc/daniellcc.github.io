@@ -1,12 +1,9 @@
 body {
-  background-image: url('assets/code.jpg');
+  background-image: linear-gradient(to bottom right, #03a9f4, #4a00e0); 
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
-  background-color: white;
-  height: 100%;
 }
-
 img {
   height: 300px;
   width: auto;
@@ -18,17 +15,6 @@ textarea {
 
 .container > .row {
   height: 100vh;
-}
-
-.collapse {
-  -webkit-transition: none !important;
-  transition: none !important;
-}
-
-.collapsing {
-  -webkit-transition: none !important;
-  transition: none !important;
-  display: none !important;
 }
 
 #cv {
